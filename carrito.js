@@ -1,4 +1,4 @@
-class Prod {
+/* class Prod {
     constructor(id, prod, precio, stock) {
         this.id = id;
         this.prod = prod;
@@ -53,3 +53,7 @@ let opcion = prompt("SELECCIONE 1 PARA ELEGIR COMPRAR ")
                 console.log("precio del producto: $"+precio)
                 console.log("stock disponible "+stock)
         }  
+ */
+
+let titulo = document.getElementById("titulo");
+titulo.innerHTML = prompt("ingrese titulo nuevo")
